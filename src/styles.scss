@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+.lightboxOverlay{
+    width: 100vw !important;
+    height: 100vh !important;
+}
+.lightbox{
+    height: 85% !important;
+    width: 99% !important;
+    max-width: 1300px ;
+    overflow: auto;
+    left: 17.5% !important;
+    .lb-outerContainer{
+        height: 83% !important;
+        background-color: transparent !important;
+    }
+
+    .lb-container{
+        width: 100% !important;
+        height: 100% !important;
+        transform-origin: 0% !important;
+        .lb-image{
+            transform-origin: initial !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+    
+}
