@@ -3,25 +3,24 @@
     height: 100vh !important;
 }
 .lightbox{
-    height: 85% !important;
-    width: 99% !important;
-    max-width: 1300px ;
+    height: 93vh !important;
+    width: calc(100vw - 6rem) !important;
+    max-width: calc(100vw - 1rem) ;
     overflow: auto;
-    left: 17.5% !important;
     .lb-outerContainer{
-        height: 83% !important;
+        // height: calc(100% - 5rem) !important;
+        width: 100%;
         background-color: transparent !important;
     }
 
     .lb-container{
         width: 100% !important;
-        height: 100% !important;
+        height: 90% !important;
         transform-origin: 0% !important;
         .lb-image{
             transform-origin: initial !important;
             width: 100% !important;
             height: 100% !important;
         }
-    }
-    
+    }    
 }
